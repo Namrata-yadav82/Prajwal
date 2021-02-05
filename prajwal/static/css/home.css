@@ -1,0 +1,20 @@
+section{
+    display: grid;
+    grid-template-rows: 1.5fr .5fr 1.2fr;
+    width: 100vw;
+    height: 89vh;
+}
+.animation{
+    display:block
+}
+.description{
+    display: grid;
+    place-items: center;
+}
+.btn-wrapper{
+    display: grid;
+    place-items: center;
+}
+.home-btn:nth-child(2){
+    margin-top: -3rem;
+}

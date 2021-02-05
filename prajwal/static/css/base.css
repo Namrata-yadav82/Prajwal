@@ -22,3 +22,10 @@ a{
 li{
     text-indent: 0;
 }
+
+.btn{
+    width: fit-content;
+    padding: .6rem;
+    border: outset #f9f06f 2px;
+    background-color: #f9f06f;
+}

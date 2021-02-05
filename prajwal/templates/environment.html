@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/base.css"/>
+    <link rel="stylesheet" href="../static/css/header.css"/>
+    <link rel="stylesheet" href="../static/css/data.css"/>
+    <link rel="stylesheet" href="../static/css/enviroment.css"/>
+</head>
+<body>
+
+    <header>
+        <div class="site-name">
+            <a href="/data">Prajwal</a>
+        </div>
+        <div class="nav">
+            <li>
+                <a href="/about">About</a>
+            </li>
+            <li>
+                <a href="/docs">Docs</a>
+            </li>
+            <li>
+                <a href="/user">Login</a>
+            </li>
+        </div>
+    </header>
+
+    <section>
+        <div class="page-lable">
+            <p>Enviroment Information</p>
+        </div>
+        <canvas id="canvas" width="250px" height="225px"></canvas>
+        <form action="/data/envimage" method="POST" enctype="multipart/form-data">
+            <div class="input-box">
+                <input type="file" accept="image/*" capture="user" name="image" id="load-image">
+            </div>
+
+            <p id="radiation"></p>
+            <p id="status"></p>
+            <p id="location"></p>
+
+            <div class="btn-wrapper">
+                <button type="button"  class="form-btn" id="find-me">Find Location</button>
+            </div>
+            <div class="btn-wrapper">
+                <button type="submit" class="form-btn" id="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <div class="responsive-nav">
+        <div class="nav-icon">
+            <div class="icon" id="show">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="icon" id="hide">
+                <div class="cross"></div>
+                <div class="cross"></div>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Docs</a>
+            <a href="">Login</a>
+        </div>
+    </div>
+
+    <script src="../static/js/enviroment.js"></script>
+    <script src="../static/js/common.js"></script>
+</body>
+</html>

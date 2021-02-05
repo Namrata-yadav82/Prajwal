@@ -1,0 +1,56 @@
+.welcome-page{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 2fr 6fr 2fr .5fr;
+}
+.app-name{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 57px;
+}
+.home-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.start-btn{
+    width: 10rem;
+    border: outset #f9f06f 2px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    cursor: pointer;
+    background-color: yellow;
+}
+.start-btn a{
+    color: rgba(0, 0, 0, 0.64);
+}
+.start-btn:hover{
+    color:crimson;
+    background-color:aqua ;
+}
+.vector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}

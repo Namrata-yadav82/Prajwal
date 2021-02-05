@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel-Data</title>
+    <link rel="stylesheet" href="../static/css/base.css"/>
+    <link rel="stylesheet" href="../static/css/header.css"/>
+    <link rel="stylesheet" href="../static/css/data.css"/>
+</head>
+<body>
+
+    <header>
+        <div class="site-name">
+            <a href="home.html">Prajwal</a>
+        </div>
+        <div class="nav">
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="docs.html">Docs</a>
+            </li>
+            <li>
+                <a href="user.html">Login</a>
+            </li>
+        </div>
+    </header>
+    
+    <section class="data-entry-page" id="panel-data">
+        <form action="/data/paneldata" method="POST" class="form">
+            <div class="form-lable">
+                <p>Solar Panel Information</p>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Enter rated-power (watts)" name="rated-power">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Enter rated-efficiency (%)" name="rated-efficiency">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Enter area of panel (m^2)" name="panel-area">
+            </div>
+            <div class="input-box">
+                <input type="number"  placeholder="Enter the nominal cell temperature (*C)" name="nominal-cell-temp">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Enter number of panels" name="panel-count">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Enter number of cells" name="cell-count">
+            </div>
+            <div class="btn-wrapper">
+                <button type="submit" class="form-btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <div class="responsive-nav">
+        <div class="nav-icon">
+            <div class="icon" id="show">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="icon" id="hide">
+                <div class="cross"></div>
+                <div class="cross"></div>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Docs</a>
+            <a href="">Login</a>
+        </div>
+    </div>
+
+    <script src="../static/js/common.js"></script>
+</body>
+</html>

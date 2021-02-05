@@ -1,2 +1,2 @@
 # Prajwal
-A software for optimising solar panel installation and simulation
+A web application for optimising solar panel installation and simulation

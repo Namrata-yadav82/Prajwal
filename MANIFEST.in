@@ -1,0 +1,3 @@
+graft prajwal/static
+graft prajwal/templates
+global-exclude *.pyc

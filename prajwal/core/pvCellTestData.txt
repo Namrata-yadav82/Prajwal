@@ -1,0 +1,2 @@
+Model Rated-Power Rated-Efficiency Nominal-Cell-Temprature Temprature-Cofficient
+65712 5 .17 45 -0.005

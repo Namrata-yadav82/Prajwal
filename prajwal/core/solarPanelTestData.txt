@@ -1,0 +1,2 @@
+Model Power(watts) Efficiency(%) Area(m^2) NumberOfCells NOC-Temprature(*C)
+we231 160 17.5 1 60 45

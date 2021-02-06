@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+    <link rel="stylesheet" href="../static/css/base.css"/>
+    <link rel="stylesheet" href="../static/css/header.css"/>
+    <link rel="stylesheet" href="../static/css/output.css">
+</head>
+<body>
+    <header>
+        <div class="site-name">
+            <a href="/data">Prajwal</a>
+        </div>
+        <div class="nav">
+            <li>
+                <a href="/about">About</a>
+            </li>
+            <li>
+                <a href="/docs">Docs</a>
+            </li>
+            <li>
+                <a href="/user">Login</a>
+            </li>
+        </div>
+    </header>
+
+    <section>
+        <div class="page-heading">
+            <p>Instantaneous Output Values</p>
+        </div>
+        <div class="output-values">
+            <p>
+                Electric Power = <span id="electricPower"></span> Watts 
+            </p>
+            <p>
+                Power Efficiency = <span id="efficiency"></span> %
+            </p>
+            <p>
+                Inclination from Surface = <span id="inclination"></span> degree
+            </p>
+            <p>
+                Orintation towards = <span id="orintation"></span>
+            </p>
+        </div>
+        <div class="btn-wrapper">
+            <div class="btn">Get Graphs</div>
+        </div>
+    </section>
+
+    <div class="responsive-nav">
+        <div class="nav-icon">
+            <div class="icon" id="show">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="icon" id="hide">
+                <div class="cross"></div>
+                <div class="cross"></div>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Docs</a>
+            <a href="">Login</a>
+        </div>
+    </div>
+
+    <script src="../static/js/output.js"></script>
+</body>
+</html>
